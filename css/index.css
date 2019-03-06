@@ -1,0 +1,7 @@
+* {
+    list-style: none;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
