@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 .vidaloka {
   font-family: 'Vidaloka', serif;
   font-weight: 300;
@@ -54,7 +58,6 @@ a {
   display: flex;
   left: 20%;
   top: 30%;
-  align-items: center;
 }
 
 .floating-left {
@@ -118,19 +121,25 @@ a {
 .projects-title::before {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 5px;
-  left: -100px;
-  top: 10px;
+  width: 40px;
+  height: 4px;
+  right: 135px;
+  top: 18px;
   background: black;
 }
 
 .projects-title::after {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 5px;
-  left: 100px;
-  top: 10px;
+  width: 40px;
+  height: 4px;
+  left: 135px;
+  top: 18px;
   background: black;
+}
+
+.building {
+  position: absolute;
+  padding: 30px;
+  background-color: black;
 }
