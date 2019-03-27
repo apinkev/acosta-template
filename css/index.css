@@ -160,12 +160,45 @@ a {
 
 .building-2 {
   width: 40%;
+  height: 30%;
 }
 
 .content-text-container {
   display: flex;
   width: 50%;
   justify-content: center;
+}
+
+.content-graphics-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.black-box {
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 28%;
+  top: 55%;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.black-box p {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.location-vertical {
+  writing-mode: vertical-lr;
+  height: fit-content;
+  transform: rotate(-180deg);
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-right: 10px;
 }
 
 .description-text {
