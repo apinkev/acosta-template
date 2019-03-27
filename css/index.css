@@ -172,5 +172,22 @@ a {
   padding: 40px;
   width: 50%;
   line-height: 25px;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+.titles {
+  padding: 40px 80px 0 0;
+  width: 200px;
+  position: relative;
+  text-align: right;
+}
+
+.titles::before {
+  content: '';
+  position: absolute;
+  left: 135px;
+  top: 50px;
+  width: 70px;
+  height: 3px;
+  background-color: black;
 }
